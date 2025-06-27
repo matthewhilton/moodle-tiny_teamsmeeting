@@ -31,8 +31,6 @@ use core_privacy\local\request\approved_userlist;
 use core_privacy\local\request\contextlist;
 use core_privacy\local\request\userlist;
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * Privacy API implementation for the Teams Meeting plugin.
  *
@@ -42,7 +40,13 @@ defined('MOODLE_INTERNAL') || die();
 class provider implements \core_privacy\local\metadata\provider,
     \core_privacy\local\request\plugin\provider, \core_privacy\local\request\core_userlist_provider {
 
-    public static function get_metadata(collection $collection) : collection {
+    /**
+     * Get metadata and add to given collection.
+     *
+     * @param collection $collection
+     * @return collection
+     */
+    public static function get_metadata(collection $collection): collection {
         $collection->add_external_location_link('msteamsapp', ['userlang' => 'privacy:metadata:msteamsapp:userlang'],
             'privacy:metadata:msteamsapp');
 
@@ -55,7 +59,7 @@ class provider implements \core_privacy\local\metadata\provider,
      * @param int $userid The user to search.
      * @return  contextlist $contextlist  The contextlist containing the list of contexts used in this plugin.
      */
-    public static function get_contexts_for_userid(int $userid) : contextlist {
+    public static function get_contexts_for_userid(int $userid): contextlist {
         return new contextlist();
     }
 

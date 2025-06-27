@@ -25,28 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Teams Meeting';
-$string['settings'] = 'Ustawienia Teams Meeting';
-
-// Settings.
-$string['settings_meetings_app_link'] = 'Link do Teams Meeting';
-$string['settings_meetings_app_link_desc'] = 'Link do aplikacji Teams Meeting';
-
-// iFrame.
-$string['iframe_meeting_options'] = 'Opcje spotkania';
-$string['iframe_meeting_created'] = 'Spotkanie online "{$a}" utworzone!';
 $string['iframe_go_to_meeting'] = 'Go to meeting';
+$string['iframe_meeting_created'] = 'Spotkanie online "{$a}" utworzone!';
+$string['iframe_meeting_options'] = 'Opcje spotkania';
 $string['iframe_not_found'] = 'Nie znaleziono spotkania';
-
-// TinyMCE strings.
-$string['tiny_modal_title'] = 'Utwórz Teams Meeting';
-$string['tiny_button_primary_label'] = 'Dodaj link';
-$string['tiny_button_secondary_label'] = 'Anuluj';
-$string['tiny_input_url_label'] = 'Link Twojego spotkania:';
-$string['tiny_input_url_placeholder'] = 'Link zostanie wygenerowany po utworzeniu spotkania.';
-$string['tiny_checkbox_new_window_label'] = 'Otwórz w nowym oknie';
-
-// Privacy subsystem.
+$string['pluginname'] = 'Teams Meeting';
 $string['privacy:metadata'] = 'Wtyczka Tiny Teams Meeting nie przechowuje żadnych danych osobowych.';
 $string['privacy:metadata:msteamsapp'] = 'Wtyczka Tiny Teams Meeting nie przechowuje żadnych danych. Jednak wysyła kod języka użytkownika do aplikacji Microsoft Teams, aby zapewnić interfejs użytkownika oparty na języku użytkownika.';
 $string['privacy:metadata:msteamsapp:userlang'] = 'Kod języka użytkownika jest wysyłany do aplikacji Microsoft Teams.';
+$string['settings'] = 'Ustawienia Teams Meeting';
+$string['settings_meetings_app_link'] = 'Link do Teams Meeting';
+$string['settings_meetings_app_link_desc'] = 'Link do aplikacji Teams Meeting';
+$string['tiny_button_primary_label'] = 'Dodaj link';
+$string['tiny_button_secondary_label'] = 'Anuluj';
+$string['tiny_checkbox_new_window_label'] = 'Otwórz w nowym oknie';
+$string['tiny_input_url_label'] = 'Link Twojego spotkania:';
+$string['tiny_input_url_placeholder'] = 'Link zostanie wygenerowany po utworzeniu spotkania.';
+$string['tiny_modal_title'] = 'Utwórz Teams Meeting';

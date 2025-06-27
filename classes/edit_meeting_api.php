@@ -69,13 +69,13 @@ class edit_meeting_api extends external_api {
         if ($record == null) {
             return [
                     'status' => false,
-                    'url' => $url
+                    'url' => $url,
             ];
         }
 
         return [
                 'status' => true,
-                'url' => $url
+                'url' => $url,
         ];
     }
 
@@ -134,7 +134,7 @@ class edit_meeting_api extends external_api {
         return new external_single_structure(
                 [
                         'status' => new external_value(PARAM_BOOL, 'Status of the operation'),
-                        'url' => new external_value(PARAM_URL, 'URL link')
+                        'url' => new external_value(PARAM_URL, 'URL link'),
                 ]
         );
     }

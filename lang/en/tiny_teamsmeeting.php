@@ -25,30 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Teams Meeting';
-
-// Settings.
-$string['settings_meetings_app_link'] = 'Meetings App URL';
-$string['settings_meetings_app_link_desc'] = 'This is URL of meeting app location';
-
-// Capability.
-$string['teamsmeeting:add'] = 'Add Teams Meeting';
-
-// iFrame.
-$string['iframe_meeting_options'] = 'Meeting Options';
-$string['iframe_meeting_created'] = 'Meeting "{$a}" was created successfully!';
 $string['iframe_go_to_meeting'] = 'Go to meeting';
+$string['iframe_meeting_created'] = 'Meeting "{$a}" was created successfully!';
+$string['iframe_meeting_options'] = 'Meeting Options';
 $string['iframe_not_found'] = 'Meeting not found';
-
-// TinyMCE strings.
-$string['tiny_modal_title'] = 'Create Teams meeting';
-$string['tiny_button_primary_label'] = 'Add link';
-$string['tiny_button_secondary_label'] = 'Cancel';
-$string['tiny_input_url_label'] = 'Your meeting URL:';
-$string['tiny_input_url_placeholder'] = 'Link will be generated after you create the meeting.';
-$string['tiny_checkbox_new_window_label'] = 'Open meeting in new window';
-
-// Privacy subsystem.
+$string['pluginname'] = 'Teams Meeting';
 $string['privacy:metadata'] = 'Tiny Teams Meeting plugin does not store any personal data';
 $string['privacy:metadata:msteamsapp'] = 'The Tiny Teams Meeting plugin does not store any data. However, it sends user language code to Microsoft Teams application to provide user interface based on user language.';
 $string['privacy:metadata:msteamsapp:userlang'] = 'User language code sent to Microsoft Teams application.';
+$string['settings_meetings_app_link'] = 'Meetings App URL';
+$string['settings_meetings_app_link_desc'] = 'This is URL of meeting app location';
+$string['teamsmeeting:add'] = 'Add Teams Meeting';
+$string['tiny_button_primary_label'] = 'Add link';
+$string['tiny_button_secondary_label'] = 'Cancel';
+$string['tiny_checkbox_new_window_label'] = 'Open meeting in new window';
+$string['tiny_input_url_label'] = 'Your meeting URL:';
+$string['tiny_input_url_placeholder'] = 'Link will be generated after you create the meeting.';
+$string['tiny_modal_title'] = 'Create Teams meeting';

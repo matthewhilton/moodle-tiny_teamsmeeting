@@ -22,6 +22,8 @@
  * @author      Oliwer Banach <oliwer.banach@enovation.ie>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+// phpcs:disable moodle.NamingConventions.ValidVariableName.VariableNameLowerCase
+// phpcs:disable moodle.Files.LineLength.TooLong
 
 require_once(__DIR__ . '/../../../../../config.php');
 

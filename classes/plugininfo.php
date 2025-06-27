@@ -48,7 +48,7 @@ class plugininfo extends plugin implements plugin_with_buttons, plugin_with_conf
      *
      * @return string[] List of buttons this plugin provides.
      */
-    public static function get_available_buttons() : array {
+    public static function get_available_buttons(): array {
         return [
             'tiny_teamsmeeting/plugin',
         ];
@@ -82,7 +82,7 @@ class plugininfo extends plugin implements plugin_with_buttons, plugin_with_conf
      * @return array
      */
     public static function get_plugin_configuration_for_context(context $context, array $options, array $fpoptions,
-        ?editor $editor = null) : array {
+        ?editor $editor = null): array {
         global $CFG, $SESSION, $USER;
 
         return [
